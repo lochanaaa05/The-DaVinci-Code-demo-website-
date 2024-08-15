@@ -1,0 +1,35 @@
+body {
+    background-color: aquamarine;
+}
+#flex-container {
+    display: flex;
+    background-color: #1B1212;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+#flex-container > div {
+    background-color: #F9F6EE;
+    width: 100%;
+    height: 50px;
+    margin: 20px;
+}
+
+/*tab 800 to 1000px*/
+
+@media only screen and (min-width: 800px) {
+    body {
+        background-color: antiquewhite;
+    }
+    #flex-container {
+        display: flex;
+        background-color: #1B1212;
+        flex-flow: row wrap;
+    }
+    #flex-container > div {
+        background-color: #F9F6EE;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+    }
+}
